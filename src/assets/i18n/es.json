@@ -1,0 +1,22 @@
+{
+  "title": "Whac-A-Mole",
+  "difficulty": "Dificultad",
+  "difficulty_easy": "Fácil",
+  "difficulty_medium": "Media",
+  "difficulty_hard": "Difícil",
+  "difficulty_legend": "Legendario",
+  "name": "Nombre",
+  "hello": "Hola,",
+  "level": "Nivel:",
+  "points": "Puntos",
+  "position": "Posición",
+  "date": "Fecha",
+  "empty_scores": "Vaya... esto está un poco vacío. No hay puntuaciones todavía.",
+  "play": "¡A jugar!",
+  "language": "Idioma",
+  "lang_es": "Español",
+  "lang_en": "English",
+  "lang_ca": "Catalan",
+  "lang_gl": "Gallego",
+  "lang_eu": "Euskera"
+}

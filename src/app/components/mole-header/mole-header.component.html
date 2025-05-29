@@ -1,0 +1,22 @@
+<header class="game-header">
+  <div class="game-header__info">
+    <span class="game-header__player">{{ 'hello' | translate }} <strong>{{ user.name }}</strong></span>
+    <span class="game-header__difficulty">{{ 'level' | translate }} {{ ('difficulty_' + user.difficulty) | translate }}</span>
+    <span class="game-header__score">{{ 'points' | translate }} : <strong>{{ user.score }}</strong></span>
+  </div>
+
+  <div class="game-header__actions">
+    <button type="button"
+            class="btn-icon btn-icon--primary"
+            (click)="onToggle()">
+      <img [src]="playIcon"
+           [alt]="playAlt">
+    </button>
+
+    <button type="button"
+            class="btn-icon"
+            (click)="onBackHome()">
+      <img src="assets/icons/home.png" alt="Home icon">
+    </button>
+  </div>
+</header>

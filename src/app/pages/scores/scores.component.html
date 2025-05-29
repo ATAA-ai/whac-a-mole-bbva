@@ -1,0 +1,24 @@
+<section class="scores">
+  <h1 class="scores__title">{{ 'scores' | translate }}</h1>
+
+  <table *ngIf="scores().length; else empty" class="scores__table">
+    <thead>
+      <tr><th>{{ 'position' | translate }}</th><th>{{ 'name' | translate }}</th><th>{{ 'difficulty' | translate }}</th><th>{{ 'points' | translate }}</th><th>{{ 'date' | translate }}</th></tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let s of scores(); index as i">
+        <td>{{ i + 1 }}</td>
+        <td>{{ s.name }}</td>
+        <td>{{ s.difficulty | titlecase }}</td>
+        <td>{{ s.score }}</td>
+        <td>{{ s.date | date:'short' }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <ng-template #empty>
+    <p>{{ 'empty_scores' | translate }}</p>
+  </ng-template>
+
+  <a routerLink="/" class="btn-primary back-btn">Volver</a>
+</section>

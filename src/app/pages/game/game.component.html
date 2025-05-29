@@ -1,0 +1,18 @@
+<app-mole-header
+  [user]="user()!"
+  [running]="running()"
+  (playToggle)="toggleGame()"
+  (backHome)="goHome()">
+</app-mole-header>
+<section class="game">
+  <app-mole-countdown
+    *ngIf="countdownActive"
+    [start]="3"
+    (finished)="onCountdownFinished()">
+  </app-mole-countdown>
+  <app-mole-grid
+    *ngIf="!countdownActive"
+    [activeIndex]="moleIndex()"
+    (hit)="onHit($event)">
+  </app-mole-grid>
+</section>

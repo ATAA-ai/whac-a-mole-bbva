@@ -1,0 +1,10 @@
+@use '../../../styles/variables' as *;
+
+.game {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  padding: $space-md;
+  box-sizing: border-box;
+}

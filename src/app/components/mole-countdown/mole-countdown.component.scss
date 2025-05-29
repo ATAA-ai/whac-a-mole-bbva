@@ -1,0 +1,19 @@
+@use '../../../styles/variables' as *;
+
+.mole-countdown {
+  &__overlay {
+    position: absolute;
+    inset: 0;
+    background: $color-overlay-strong;
+    display: grid;
+    place-items: center;
+    z-index: 10;
+  }
+
+  &__number {
+    font-size: 5rem;
+    font-weight: bold;
+    color: $color-accent;
+    text-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  }
+}

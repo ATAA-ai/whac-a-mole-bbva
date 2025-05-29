@@ -1,0 +1,29 @@
+@use '../../../styles/variables' as *;
+
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $space-sm $space-lg;
+  background: $color-bg-card;
+  color: $color-text-light;
+  box-shadow: $shadow-header;
+
+  &__info {
+    display: flex;
+    gap: $space-lg;
+    flex-wrap: wrap;
+    font-size: 0.95rem;
+
+    span { white-space: nowrap; }
+  }
+
+  &__player {
+    strong { font-weight: 600; }
+  }
+
+  &__actions {
+    display: flex;
+    gap: $space-md;
+  }
+}

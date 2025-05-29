@@ -1,0 +1,33 @@
+@use '../../../styles/variables' as *;
+
+.scores {
+  max-width: 600px;
+  margin: $space-xxl auto;
+  background: $color-bg-card;
+  color: $color-text-light;
+  padding: $space-xxl;
+  border-radius: $radius-card;
+  box-shadow: $shadow-scores;
+  text-align: center;
+
+  &__table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-block: $space-xxl;
+
+    th, td {
+      padding: $space-sm;
+    }
+    thead {
+      background: $color-scores-head;
+    }
+    tbody tr:nth-child(odd) {
+      background: $color-scores-row;
+    }
+  }
+
+  &__back-btn {
+    display: inline-block;
+    margin-top: $space-lg;
+  }
+}

@@ -1,0 +1,75 @@
+<main class="home">
+  <section class="home__card">
+    <header class="home__card__header">
+      <h1 class="home__title">
+        {{ 'title' | translate }}
+        <img
+          src="assets/icons/mole-logo.png"
+          class="home__logo"
+          alt="Topo del juego">
+      </h1>      
+      
+      <button
+        type="button"
+        class="btn-icon"
+        (click)="goScores()">
+        <img
+          src="assets/icons/top-10.png"
+          alt="{{ 'scores' | translate }}">
+      </button>
+
+      <label class="lang-select">
+        <select
+          [ngModel]="languageService.current()"
+          (ngModelChange)="languageService.setLang($event)"
+          name="language"
+          class="home__form-control">
+          <option
+            *ngFor="let lang of langOptions"
+            [value]="lang.code">
+            {{ lang.labelKey | translate }}
+          </option>
+        </select>
+      </label>
+    </header>
+
+    <form
+      #f="ngForm"
+      (ngSubmit)="onSubmit(f)"
+      class="home__form">
+
+      <label class="home__form-field">
+        <span class="home__form-label">{{ 'difficulty' | translate }}</span>
+        <select
+          [(ngModel)]="selectedDifficulty"
+          name="difficulty"
+          required
+          class="home__form-control">
+          <option
+            *ngFor="let diff of difficulties"
+            [value]="diff">
+            {{ ('difficulty_' + diff) | translate }}
+          </option>
+        </select>
+      </label>
+
+      <label class="home__form-field">
+        <span class="home__form-label">{{ 'name' | translate }}</span>
+        <input
+          name="name"
+          ngModel
+          required
+          minlength="3"
+          [placeholder]="'name' | translate"
+          class="home__form-control" />
+      </label>
+
+      <button
+        type="submit"
+        class="btn-primary"
+        [disabled]="f.invalid">
+        {{ 'play' | translate }}
+      </button>
+    </form>
+  </section>
+</main>

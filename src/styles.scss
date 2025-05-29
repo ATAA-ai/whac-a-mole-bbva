@@ -1,0 +1,61 @@
+@use 'styles/variables' as *;
+
+app-root, body, html {
+  height: 100%;
+  margin: 0;
+}
+
+app-root {
+  background: url('/assets/images/forest-floor.png') center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-icon {
+  width:  $icon-size;
+  height: $icon-size;
+  padding: $space-xxs;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: $radius-default;
+  background: $color-btn-bg;
+  cursor: pointer;
+  transition: background 120ms ease;
+
+  &:hover   { background: $color-btn-hover; }
+  &:active  { background: $color-btn-active; }
+  &:focus-visible { outline: 3px solid $color-accent; }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  &--primary {
+    background: $color-accent;
+
+    &:hover  { background: $color-accent-hover; }
+    &:active { background: $color-accent-active; }
+  }
+}
+
+.btn-primary {
+  padding: $space-sm;
+  border: none;
+  border-radius: $radius-default;
+  font-size: 1rem;
+  font-weight: 600;
+  color: $color-text-light;
+  background: $color-accent;
+  cursor: pointer;
+  transition: background 120ms ease;
+
+  &:hover   { background: $color-accent-hover; }
+  &:active  { background: $color-accent-active; }
+  &:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+}

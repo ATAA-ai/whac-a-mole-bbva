@@ -1,0 +1,34 @@
+// Colores
+$color-bg-card:        #242424 !default;
+$color-text-light:     #fafafa !default;
+$color-accent:         #ffbf00 !default;
+$color-accent-hover:   #ffcb34 !default;
+$color-accent-active:  #d9a600 !default;
+$color-btn-bg:         #363636 !default;
+$color-btn-hover:      #454545 !default;
+$color-btn-active:     #2e2e2e !default;
+$color-overlay:        rgba(0, 0, 0, .55) !default;
+$color-overlay-strong: rgba(0, 0, 0, .6) !default;
+$color-scores-head:    #333 !default;
+$color-scores-row:     #2e2e2e !default;
+
+// Espaciados
+$space-xxs: 0.35rem !default;
+$space-xs : 0.6rem  !default;
+$space-sm : 0.7rem  !default; // para btn-primary
+$space-md : 1rem    !default;
+$space-lg : 1.25rem !default;
+$space-xl : 1.5rem  !default;
+$space-xxl: 2rem    !default;
+
+// Radios
+$radius-default: 8px  !default;
+$radius-card   : 16px !default;
+
+// Sombras
+$shadow-card  : 0 8px 20px rgba(0,0,0,.45) !default;
+$shadow-header: 0 4px 12px rgba(0,0,0,.35) !default;
+$shadow-scores: 0 6px 18px rgba(0,0,0,.4)  !default;
+
+// Tamaños
+$icon-size: 2.4rem !default;

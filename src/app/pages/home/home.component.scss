@@ -1,0 +1,83 @@
+@use '../../../styles/variables' as *;
+
+.home {
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+
+  &__overlay {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: $color-overlay;
+    backdrop-filter: blur(2px);
+    pointer-events: none;
+  }
+
+  &__card {
+    position: relative;
+    width: 90%;
+    max-width: 420px;
+    width: clamp(320px, 90vw, 480px);
+    padding: $space-xxl $space-lg;
+    border-radius: $radius-card;
+    background: $color-bg-card;
+    box-shadow: $shadow-card;
+    color: $color-text-light;
+    text-align: center;
+    z-index: 1;
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: $space-lg;
+      gap: $space-lg;
+    }
+  }
+
+  &__title {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  &__logo {
+    width: 3.2rem;
+    height: 3.2rem;
+    vertical-align: middle;
+    margin-left: $space-sm;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: $space-lg;
+  }
+
+  &__form-field {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  &__form-label {
+    margin-bottom: $space-xxs;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  &__form-control {
+    padding: $space-xs $space-md;
+    border: 1px solid darken($color-bg-card, 20%);
+    border-radius: $radius-default;
+    background: lighten($color-bg-card, 5%);
+    color: $color-text-light;
+    font-size: 0.95rem;
+
+    &:focus {
+      outline: 3px solid $color-accent;
+      border-color: transparent;
+    }
+  }
+}

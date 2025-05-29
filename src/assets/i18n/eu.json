@@ -1,0 +1,22 @@
+{
+  "title": "Whac-A-Mole",
+  "difficulty": "Zailtasuna",
+  "difficulty_easy": "Erraza",
+  "difficulty_medium": "Ertaina",
+  "difficulty_hard": "Zaila",
+  "difficulty_legend": "Legendario",
+  "name": "Izena",
+  "hello": "Kaixo,",
+  "level": "Maila:",
+  "points": "Puntuak",
+  "position": "Posizioa",
+  "date": "Data",
+  "empty_scores": "Tira... hau pixka bat hutsik dago. Oraindik ez dago puntuaziorik.",
+  "play": "Jolastu!",
+  "language": "Hizkuntza",
+  "lang_es": "Español",
+  "lang_en": "English",
+  "lang_ca": "Català",
+  "lang_gl": "Galego",
+  "lang_eu": "Euskara"
+}

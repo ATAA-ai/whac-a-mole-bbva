@@ -1,0 +1,14 @@
+<section class="mole-board">
+  <ul class="mole-board__grid" role="grid">
+    <li
+      *ngFor="let idx of cells; trackBy: trackByIdx"
+      class="mole-board__cell"
+      role="gridcell">
+      <app-mole-cell
+        [index]="idx"
+        [active]="idx === activeIndex"
+        (hit)="hit.emit(idx)">
+      </app-mole-cell>
+    </li>
+  </ul>
+</section>
