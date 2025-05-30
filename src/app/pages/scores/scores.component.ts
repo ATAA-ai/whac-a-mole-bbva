@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ScoreService } from '../../services/score.service';
-import { NgFor, DatePipe, TitleCasePipe, NgIf } from '@angular/common';
+import { NgIf, NgFor, DatePipe, TitleCasePipe } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
 

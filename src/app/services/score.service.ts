@@ -18,8 +18,8 @@ export class ScoreService {
   /** Adds a new entry and persists */
   add(entry: ScoreEntry): void {
     const next = [...this._scores(), entry]
-      .sort((a, b) => b.score - a.score)      // highest first
-      .slice(0, 20);                          // keep top-20
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 20);                        
 
     this._scores.set(next);
     localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
