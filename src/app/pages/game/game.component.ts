@@ -15,6 +15,9 @@ import { NgIf } from '@angular/common';
   imports: [MoleHeaderComponent, MoleCountdownComponent, MoleGridComponent, NgIf],
   templateUrl: './game.component.html',
   styleUrl: './game.component.scss',
+  host: {
+    class: 'game-page'
+  },
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class GameComponent implements OnInit, OnDestroy {
@@ -73,6 +76,7 @@ export class GameComponent implements OnInit, OnDestroy {
   private saveScore(): void {
     const u = this.user();
     if (!u) { return; }
+    
     this.scoreService.add({
       name: u.name,
       score: u.score,

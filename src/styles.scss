@@ -11,6 +11,13 @@ app-root {
   flex-direction: column;
 }
 
+app-game {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
 .btn-icon {
   width:  $icon-size;
   height: $icon-size;
