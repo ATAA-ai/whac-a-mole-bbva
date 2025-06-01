@@ -12,7 +12,7 @@
     user-select: none;
     position: relative;
     cursor: pointer;
-    background: url('/assets/images/hole.png') center / cover no-repeat;
+    background: url('../../../assets/images/hole.png') center / cover no-repeat;
 
     &:focus-visible {
       outline: 3px solid $color-accent;
@@ -20,6 +20,6 @@
   }
 
   &__button--active {
-    background: url('/assets/images/mole-hole.png') center / cover no-repeat;
+    background: url('../../../assets/images/mole-hole.png') center / cover no-repeat;
   }
 }
