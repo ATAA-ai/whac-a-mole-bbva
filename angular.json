@@ -18,6 +18,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": "dist/whac-a-mole-bbva",
+            "baseHref": "/whac-a-mole-bbva/",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
