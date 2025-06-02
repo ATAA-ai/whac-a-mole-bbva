@@ -31,6 +31,12 @@ export class GameEngineService {
     this.currentDifficulty = diff;
     this._running.set(true);
 
+    // First mole
+    const first = this.pickRandomIndex(undefined);
+    this.previousNumber = first;
+    this._moleIndex.set(first);
+
+    // Start moles loop
     const { interval } = GAME_CONFIG[diff];
     this.timerId = setInterval(() => {
       const next = this.pickRandomIndex(this.previousNumber);
