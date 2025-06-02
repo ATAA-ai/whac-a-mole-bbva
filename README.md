@@ -1,27 +1,52 @@
 # WhacAMoleBbva
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Si solo quieres jugar directamente, visita:
 
-## Development server
+- https://ataa-ai.github.io/whac-a-mole-bbva/
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Descripción
 
-## Code scaffolding
+Whac-A-Mole BBVA es un juego muy sencillo en el que aparece un topo aleatoriamente en una cuadrícula 3×3. El objetivo del jugador es “golpear” al topo antes de que se mueva. Cada topo acertado suma puntos según la dificultad seleccionada. Además, el juego almacena un historial de puntuaciones y soporta cinco idiomas (español, inglés, catalán, gallego y euskera).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Características principales
 
-## Build
+Angular Standalone Components: Todos los componentes están creados como standalone, sin módulos adicionales, para aprovechar las últimas mejoras de Angular 17.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Sencilla lógica de juego:
 
-## Running unit tests
+- Pantalla de inicio (login) donde se elige nombre, dificultad e idioma.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Contador regresivo (3…2…1) antes de empezar.
 
-## Running end-to-end tests
+- Grid 3×3 que muestra un topo aleatorio cada intervalo.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Cada “golpe” al topo suma puntos según dificultad.
 
-## Further help
+- Botón de Play/Pause en el header para pausar o reanudar en cualquier momento.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Al salir del juego se guarda la puntuación en historial (localStorage).
+
+- Pantalla de puntuaciones: Muestra el top de partidas jugadas (nombre, dificultad, puntos, fecha).
+
+- Internacionalización (i18n): Traducciones en español, inglés, catalán, gallego y euskera.
+
+- Tests unitarios: Cobertura de tests con Jasmine y Karma para cada componente crítico.
+
+# Tecnologías utilizadas
+
+- Angular v17 (Standalone Components)
+
+- TypeScript
+
+- RxJS Signals para estado reactivo
+
+- SCSS con metodología BEM y variables globales
+
+- @ngx-translate/core para i18n
+
+- Karma + Jasmine para tests unitarios
+
+- Servidores de pruebas: Angular CLI (ng serve)
+
+- GitHub Pages para despliegue continuo
