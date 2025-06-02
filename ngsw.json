@@ -1,0 +1,113 @@
+{
+  "configVersion": 1,
+  "timestamp": 1748847321768,
+  "index": "https://ATAA-ai.github.io/whac-a-mole-bbva/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/index.html",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/main-V76YRGL6.js",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/manifest.webmanifest",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/polyfills-FFHMD2TL.js",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/styles-SR2PR5UV.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/ca.json",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/en.json",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/es.json",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/eu.json",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/gl.json",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/hammer-cursor.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/home.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-128x128.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-144x144.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-152x152.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-192x192.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-384x384.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-512x512.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-72x72.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-96x96.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/mole-logo.ico",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/mole-logo.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/pause.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/play.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/top-10.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/images/forest-floor.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/images/hole.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/images/mole-hole.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/media/forest-floor-G4374YKQ.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/media/hole-3C7J2K2U.png",
+        "https://ATAA-ai.github.io/whac-a-mole-bbva/media/mole-hole-A56EL7DO.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/ca.json": "e36b89686e593e887c6d8b8c80607b483ac9a19c",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/en.json": "d7a23911247f50679c1cd236cf1f3d59f1f58c53",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/es.json": "31ce63c32eabc09bd9a6c00e834a9cc93e7dd184",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/eu.json": "145f8a30049919fea7262c5463f7ff8745aad3c8",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/i18n/gl.json": "529d4d3a6975564e57b540c0eda6c51099017048",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/hammer-cursor.png": "6dd40787f15364e97d70bdf54655e7823dc1de51",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/home.png": "2b6d1136cb4e8e02ae825ebb4d5499c8ecfd7f67",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/mole-logo.ico": "c6551c92a327bdcc0af64477406cf357d671a883",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/mole-logo.png": "0b13c234538dd991cb67f64d48833a4c7590c950",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/pause.png": "d59b2d7056211cb6ea098bd02fb7561a79067d1d",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/play.png": "8e923da5bcf0c5770a486219ff90df2df303ef36",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/icons/top-10.png": "b52da09a5bb5ad7fd94d0c4b05454fa50907e1b1",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/images/forest-floor.png": "ffe9e6b4f32001326222c00bf852605ac2e35338",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/images/hole.png": "6e5bb0870c696b179a9009466a83ac2633bbfa02",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/assets/images/mole-hole.png": "e35ebeabfc2a348b69425c76af6f1bcbb700536d",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/index.html": "02578c72cdda166ebdb2107f9b29d826b722f7fc",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/main-V76YRGL6.js": "a2530a59dd8d500020adb02c116307b72caf6b4c",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/manifest.webmanifest": "5c25a0554ebce09c69f2833c7ecd3f002aa32630",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/media/forest-floor-G4374YKQ.png": "ffe9e6b4f32001326222c00bf852605ac2e35338",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/media/hole-3C7J2K2U.png": "6e5bb0870c696b179a9009466a83ac2633bbfa02",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/media/mole-hole-A56EL7DO.png": "e35ebeabfc2a348b69425c76af6f1bcbb700536d",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "https://ATAA-ai.github.io/whac-a-mole-bbva/styles-SR2PR5UV.css": "20c7437fe9dbf77801180ea026ae6e0da7bdbf4a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
